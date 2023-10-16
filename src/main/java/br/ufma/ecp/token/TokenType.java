@@ -48,6 +48,8 @@ public enum TokenType {
 
     EOF,
 
+    IDENTIFIER,
+
     ILLEGAL;
 
     static public boolean isSymbol(char c) {
